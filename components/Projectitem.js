@@ -11,7 +11,6 @@ const Projectitem = ({ imagesrc, technology, demo, nam }) => {
           alt={nam}
           width={700}
           height={600}
-          // loading='lazy'
           priority={true}
           quality={1}
         />

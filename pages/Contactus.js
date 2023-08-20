@@ -10,7 +10,7 @@ const Contactus = () => {
     e.preventDefault();
     const formData = new FormData(e.target);
 
-    fetch("https://getform.io/f/575ea668-d576-4ef8-9fcd-8de09956fb14", {
+    fetch("https://getform.io/f/23875c95-0faf-4505-9716-b0cd1f43e9d6", {
       method: "POST",
       body: formData,
       headers: {
@@ -119,27 +119,27 @@ const Contactus = () => {
             <p>CONNECT WITH ME</p>
             <div className="flex space-x-8 pb-5 flex-row">
               <Buttonrounded
-                link={"https://www.linkedin.com/in/aditya-kaushik-9a836a186/"}
+                link={"https://www.linkedin.com/in/amit-paswan-04134a23b"}
                 title={"Linkedin"}
               >
                 <FaLinkedinIn color="white" size={25} />
               </Buttonrounded>
               <Buttonrounded
-                link={"https://github.com/adityakshk499"}
+                link={"https://github.com/AmitPaswan18"}
                 title={"Github"}
               >
                 <FaGithub color="#433f40" size={25} />
               </Buttonrounded>
               <Buttonrounded
                 link={
-                  "https://drive.google.com/file/d/1-4et_7JrwE50ptwBl1uw8fYEdp3MTzKx/view?usp=share_link"
+                  "https://forms.gle/EHRGkEoVpv4e6Dak8"
                 }
                 title={"Resume"}
               >
                 <FaWpforms color="black" size={25} />
               </Buttonrounded>
               <Buttonrounded
-                link={"https://api.whatsapp.com/send?phone=919897545121"}
+                link={"https://api.whatsapp.com/send?phone=918840932780"}
                 title={"Whatsapp"}
               >
                 <FaWhatsapp color="#13eb1e" size={25} />

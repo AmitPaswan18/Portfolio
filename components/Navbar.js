@@ -4,6 +4,7 @@ import Link from "next/link";
 import { FaLinkedinIn, FaGithub, FaWhatsapp, FaWpforms } from "react-icons/fa";
 import Buttonrounded from "./Buttonrounded";
 import Image from "next/image";
+import Logo from "./LOGO/logo.png"
 
 const Navbar = () => {
   const [nav, setnav] = useState(false);
@@ -19,10 +20,10 @@ const Navbar = () => {
         <Link href="/" onClick={logohandler}>
           {" "}
           <Image
-            className="w-32 sm:w-48 h-fit"
+            className="w-32 sm:w-48 h-fit "
             width={150}
             height={100}
-            src="https://res.cloudinary.com/dbwc39val/image/upload/v1670688838/myportfolio/Aditya_kaushik-1_ijxnyw.png"
+            src={Logo}
             alt="logo"
           />
         </Link>

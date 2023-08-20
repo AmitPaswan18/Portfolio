@@ -64,7 +64,7 @@ const Projects = () => {
             technology={Assets.projects.clock.technology}
             demo={Assets.projects.clock.demo}
           />
-          <Projectitem
+          {/* <Projectitem
             nam={Assets.projects.drum.name}
             imagesrc={Assets.projects.drum.imagesrc}
             technology={Assets.projects.drum.technology}
@@ -75,7 +75,7 @@ const Projects = () => {
             imagesrc={Assets.projects.typeahead.imagesrc}
             technology={Assets.projects.typeahead.technology}
             demo={Assets.projects.typeahead.demo}
-          />
+          /> */}
 
           {/* ends here */}
         </div>

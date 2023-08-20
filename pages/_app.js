@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <meta
           name="description"
-          content="Aditya kaushik Portfolio , A Front-end web devloper knows and competent in  React Next CSS HTML JS Tailwind css . able to make responsive design. "
+          content="Amit Paswan Portfolio , A Front-end web devloper knows and competent in  React Next CSS HTML JS Tailwind css . able to make responsive design. "
         ></meta>
         <meta name="robots" content="index,follow" />
         <meta name="robots" content="all" />

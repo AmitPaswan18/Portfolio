@@ -12,7 +12,7 @@ const Home = () => {
     </Head>
         <div className="w-full  relative  h-screen  ">
         <video
-          className="object-cover brightness-[20%]  h-screen w-full"
+          className="object-cover brightness-[20%] bg-gradient-to-r from-slate-900 to-slate-700  h-screen w-full"
           autoPlay={true}
           muted={true}
           loop={true}
@@ -21,7 +21,7 @@ const Home = () => {
         <div className="absolute p-4 w-full space-y-5 h-screen text-center top-0 text-white flex flex-col items-center justify-center">
         
           <h1 className="md:text-[50px] text-[20px] font-bold">
-            Hi, I'm <span className="text-[#00D8FF]">Aditya</span>
+            Hi, I'm <span className="text-[#00D8FF]">Amit</span>
           </h1>
        
           <h1 className="md:text-[50px] text-[20px] text-[#00D8FF] font-bold">
@@ -45,10 +45,10 @@ const Home = () => {
           </p>
           <p className="text-[15px] md:text-[20px]">LET'S BUILD SOMETHING TOGETHER </p>
           <div className="flex space-x-2 md:space-x-8 flex-row  items-center justify-center ">
-            <Buttonrounded link={'https://www.linkedin.com/in/aditya-kaushik-9a836a186/'} title={'Linkedin'}>
+            <Buttonrounded link={'https://www.linkedin.com/in/amit-paswan-04134a23b'} title={'Linkedin'}>
               <FaLinkedinIn color="white" size={25} />
             </Buttonrounded>
-            <Buttonrounded link={'https://github.com/adityakshk499'} title={'Github'}>
+            <Buttonrounded link={'https://github.com/AmitPaswan18'} title={'Github'}>
               <FaGithub color="#433f40" size={25} />
             </Buttonrounded>
             <Buttonrounded link={'https://drive.google.com/file/d/1-4et_7JrwE50ptwBl1uw8fYEdp3MTzKx/view?usp=share_link'} title={"Resume"}>
