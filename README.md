@@ -1,2 +1,2 @@
-# getaditya-main
+# getamit-main
  
