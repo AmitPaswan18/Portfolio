@@ -20,7 +20,7 @@ const Navbar = () => {
         <Link href="/" onClick={logohandler}>
           {" "}
           <Image
-            className="w-32 sm:w-48 h-fit "
+            className="md:w-32 w-28 sm:w-48 h-24 md:h-fit "
             width={150}
             height={100}
             src={Logo}
