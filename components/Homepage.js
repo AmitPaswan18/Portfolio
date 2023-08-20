@@ -51,10 +51,10 @@ const Home = () => {
             <Buttonrounded link={'https://github.com/AmitPaswan18'} title={'Github'}>
               <FaGithub color="#433f40" size={25} />
             </Buttonrounded>
-            <Buttonrounded link={'https://drive.google.com/file/d/1-4et_7JrwE50ptwBl1uw8fYEdp3MTzKx/view?usp=share_link'} title={"Resume"}>
+            <Buttonrounded link={'https://forms.gle/EHRGkEoVpv4e6Dak8'} title={"Resume"}>
               <FaWpforms color="black" size={25} />
             </Buttonrounded>
-            <Buttonrounded link={'https://api.whatsapp.com/send?phone=919897545121'} title={'Whatsapp'}> 
+            <Buttonrounded link={'https://api.whatsapp.com/send?phone=918840932780'} title={'Whatsapp'}> 
               <FaWhatsapp  color="#13eb1e" size={25} />
             </Buttonrounded>
           </div>
