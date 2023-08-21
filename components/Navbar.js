@@ -4,7 +4,7 @@ import Link from "next/link";
 import { FaLinkedinIn, FaGithub, FaWhatsapp, FaWpforms } from "react-icons/fa";
 import Buttonrounded from "./Buttonrounded";
 import Image from "next/image";
-import Logo from "./LOGO/logo.png"
+// import Logo from "./LOGO/logo.png"
 
 const Navbar = () => {
   const [nav, setnav] = useState(false);
@@ -16,18 +16,18 @@ const Navbar = () => {
   }
   return (
     <>
-      <div className="flex shadow-cyan-900 bg-black w-full fixed top-[0] z-10  h:[50px] sm:h-[80px] justify-between text-[#00D8FF] items-center flex-row  shadow-sm p-3 md:p-5">
-        <Link href="/" onClick={logohandler}>
+      <div className="flex shadow-cyan-900 bg-black w-full fixed top-[0] z-10  h:[50px] sm:h-[80px] justify-end text-[#00D8FF] items-center flex-row  shadow-sm p-3 md:p-5">
+        {/* <Link href="/" onClick={logohandler}>
           {" "}
           <Image
-            className="md:w-32 w-28 sm:w-48 h-24 md:h-fit "
+            className="md:w-32 w-28 sm:w-48 h-24 md:h-fit py-2"
             width={150}
             height={100}
-            src={Logo}
+            // src={Logo}
             alt="logo"
           />
-        </Link>
-        <div className="lg:flex cursor-pointer  flex-row space-x-12 mx-7 hidden">
+        </Link> */}
+        <div className="lg:flex cursor-poinvscode-file://vscode-app/c:/Users/DELL/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.htmlter  flex-row space-x-12 mx-7 hidden">
           <Link
             href="/Aboutus"
             className="hover:scale-125 hover:text-cyan-600  ease-in duration-200 text-xl font-semibold"
