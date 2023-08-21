@@ -33,8 +33,8 @@ export const Assets = {
         crypto:{
             name : 'Instagram login Page',
             imagesrc:'https://res.cloudinary.com/diy2fslg8/image/upload/v1692555398/Portfolio%20Projects/Screenshot_13_dbwtb4.png',
-            technology: 'React.Js,HTML,JS,Tailwind',
-            demo:'https://cryptotreck.netlify.app/' 
+            technology: 'HTML,JS,Tailwind',
+            demo:'https://instagram-landing-pages.netlify.app/' 
         },
         // drum:{
         //     name : 'Drum Kit',
