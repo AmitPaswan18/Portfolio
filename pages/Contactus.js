@@ -17,9 +17,10 @@ const Contactus = () => {
         Accept: "application/json",
       },
     })
-      .then((response) => {console.log(response)
-      document.getElementById('form').reset();}
-)
+      .then((response) => {
+        console.log(response);
+        document.getElementById("form").reset();
+      })
       .catch((error) => console.log(error));
   }
   useEffect(() => {
@@ -46,16 +47,11 @@ const Contactus = () => {
           </h2>
 
           <div className="flex  flex-col items-center   space-y-8 w-full   md:w-full ">
-            {/* <h3 className="text-[30px] text-left text-[#00D8FF] font-semibold ">
-            Aditya Kaushik
-          </h3>
-          <p>Front-End Developer</p> */}
             <form
               method="POST"
               acceptCharset="UTF-8"
               id="form"
-              className="flex-col rounded-[20px] shadow-lg shadow-cyan-700 border-cyan-800 border p-3 md:p-10 text-[#00D8FF] w-full   px-4 lg:w-[40%] flex space-y-5 "
-            >
+              className="flex-col rounded-[20px] shadow-lg shadow-cyan-700 border-cyan-800 border p-3 md:p-10 text-[#00D8FF] w-full   px-4 lg:w-[40%] flex space-y-5 ">
               <label>
                 Name:{" "}
                 <input
@@ -100,18 +96,16 @@ const Contactus = () => {
                   name="message"
                   id="message"
                   cols="10"
-                  rows="5"
-                ></textarea>
+                  rows="5"></textarea>
               </label>
               <p className="font-light text-center">
                 I am available for freelance or full-time positions. Contact me
                 and let's talk.
               </p>
-              
+
               <button
                 type="submit"
-                className=" cursor-pointer hover:scale-105 ease-in duration-300 bg-gradient-to-r from-[#006a91] to-[#00D8FF] text-black rounded-lg p-3 hover:bg-cyan-600"
-              >
+                className=" cursor-pointer hover:scale-105 ease-in duration-300 bg-gradient-to-r from-[#006a91] to-[#00D8FF] text-black rounded-lg p-3 hover:bg-cyan-600">
                 Submit
               </button>
             </form>
@@ -120,28 +114,22 @@ const Contactus = () => {
             <div className="flex space-x-8 pb-5 flex-row">
               <Buttonrounded
                 link={"https://www.linkedin.com/in/amit-paswan-04134a23b"}
-                title={"Linkedin"}
-              >
+                title={"Linkedin"}>
                 <FaLinkedinIn color="white" size={25} />
               </Buttonrounded>
               <Buttonrounded
                 link={"https://github.com/AmitPaswan18"}
-                title={"Github"}
-              >
+                title={"Github"}>
                 <FaGithub color="#433f40" size={25} />
               </Buttonrounded>
               <Buttonrounded
-                link={
-                  "https://forms.gle/EHRGkEoVpv4e6Dak8"
-                }
-                title={"Resume"}
-              >
+                link={"https://forms.gle/EHRGkEoVpv4e6Dak8"}
+                title={"Resume"}>
                 <FaWpforms color="black" size={25} />
               </Buttonrounded>
               <Buttonrounded
                 link={"https://api.whatsapp.com/send?phone=918840932780"}
-                title={"Whatsapp"}
-              >
+                title={"Whatsapp"}>
                 <FaWhatsapp color="#13eb1e" size={25} />
               </Buttonrounded>
             </div>
