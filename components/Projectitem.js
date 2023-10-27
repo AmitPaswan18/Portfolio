@@ -13,22 +13,22 @@ const Projectitem = ({ imagesrc, technology, demo, nam }) => {
           height={600}
           priority={true}
           quality={1}
-        />
+        />{" "}
         <div className="hidden text-center group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
-          <h3 className="text-2xl text-white tracking-wider text-center">
-            {nam}
-          </h3>
-          <p className="pb-4 pt-2 text-white text-center">{technology}</p>
-
+          <h3 className="text-xl text-white tracking-wide text-center">
+            {" "}
+            {nam}{" "}
+          </h3>{" "}
+          <p className="pb-4 pt-2 text-white text-center"> {technology} </p>{" "}
           <Link href={demo} target="_blank">
-            <button className="rounded-lg px-5 py-3 bg-cyan-900 text-gray-200 font-bold text-lg cursor-pointer">
-              Demo
-            </button>
-          </Link>
-        </div>
-      </div>
+            <button className="rounded-lg px-5 py-2 bg-cyan-900 text-gray-200 font-bold text-lg cursor-pointer">
+              Demo{" "}
+            </button>{" "}
+          </Link>{" "}
+        </div>{" "}
+      </div>{" "}
     </>
   );
 };
 
-export default  Projectitem;
+export default Projectitem;
